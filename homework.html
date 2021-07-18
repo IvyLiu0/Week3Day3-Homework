@@ -88,8 +88,8 @@
 
  
   function percentNumber(num,num1) {
-      var percentNumber = num/num1;
-      document.getElementById("solution").innerHTML = 'The result of percent the number ' + num + ' and ' + num1 + ' is ' + percentNumber;
+      var percentNumber = num/num1*100;
+      document.getElementById("solution").innerHTML = 'The result of percent the number ' + num + ' and ' + num1 + ' is ' + percentNumber + "%";
   }
       
   var percentButton = document.getElementById("percent-button");
